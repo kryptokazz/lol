@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
   </head>
   <body>
     <header>
@@ -37,18 +38,44 @@
         <div class="minikart">
           <button>minikart button</button>
         </div>
-
-
       </div>
-        <div class="carousel"></div>
-<ul>
-        <li class="slide"></li>
+
+        <div class="carousel-container">
+        <div class="carousel" data-carousel>
+        <button class="carousel-button prev" data-carousel-button="prev" >&#8656;</button>
+        <button class="carousel-button next" data-carousel-button="next">&#8658;</button>
+        <ul data-slides>
+        <li class="slide" data-active>
         <img src="https://cdn.pixabay.com/photo/2022/04/13/02/24/money-7129284_960_720.png" alt="">
-        <li class="slide"></li>
+        </li>
+
+        <li class="slide">
         <img src="https://cdn.pixabay.com/photo/2019/04/15/20/42/bitcoin-4130299_960_720.png" alt="">
-        <li class="slide"></li>
+        </li>
+        <li class="slide">
         <img src="https://cdn.pixabay.com/photo/2015/02/13/09/47/finance-634901_960_720.png" alt="">
-</ul>
+        </li>
+
+         </ul>
+        </div>
+        </div>
+         
+
+
+
+       <div class='project-links' >
+               <a href="https://www.getmonero.org/" class="a-button"><img src="monero-xmr-logo.png"></a>
+               <a href="https://ipfs.io/ipns/tornadocash.eth/account" class="a-button"><img src="torn-torn-logo.png" alt=""></a>
+               <a class="a-button" href=""><img src="polygon-matic-logo.png" alt=""></a>
+               <a class="a-button" href=""><img src="celestia-tia-logo.png" alt=""></a>
+               <a class="a-button" href=""><img src="solana-sol-logo.png" alt=""></a>
+               <a class="a-button" href=""><img src="cosmos-atom-logo.png" alt=""></a>
+               
+
+               
+        </div>
+        </div>
+
     </header>
   </body>
 </html>
