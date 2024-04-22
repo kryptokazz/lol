@@ -26,6 +26,11 @@ body {
         text-align: center;
 }
 
+.search input {
+  background-image: url('searchicon.png');
+  background-repeat: no-repeat;
+  background-position: right;
+}
 
 .carousel {
   width: 100vw;
@@ -138,6 +143,4 @@ img {
   margin: 10px;
 }
 
-.search input {
-  background-image: url('searchicon.png');
-}
+
